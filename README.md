@@ -52,21 +52,8 @@ X（旧 Twitter）やアプリの攻略サイト内の掲示板などとの差�
 - いいね機能
 - いいね数順でのランキング機能
 
-### 画面遷移図
+## 画面遷移図
 Figma：https://www.figma.com/file/5o49X2RTNarOdGlHvJ04db/PokemonGO_boasting_post?type=design&node-id=0-1&mode=design&t=uHdNniRMNnFkXUzM-0
 
-### READMEに記載した機能
-- [x] ログイン機能（Google）
-- [x] 投稿機能（画像アップロード含む）
-- [x] 投稿詳細機能（投稿ユーザー以外でも閲覧可能）
-- [x] 投稿編集・削除機能
-- [x] コメント投稿機能（全ユーザー）
-- [x] コメント編集・削除機能（コメントしたユーザーのみ）
-- [x] タグ投稿機能（全ユーザー）
-- [x] タグ編集・削除機能（タグ投稿ユーザーのみ）
-- [x] いいね機能
-- [x] いいね解除機能
-- [x] お気に入り機能
-- [x] お気に入り解除機能
-- [x] 検索機能
-- [x] チャットルーム機能
+## ER図
+https://gyazo.com/b82a4e0ed59b39e7331cf4dcefa1be6f
