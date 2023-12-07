@@ -56,4 +56,4 @@ X（旧 Twitter）やアプリの攻略サイト内の掲示板などとの差�
 Figma：https://www.figma.com/file/5o49X2RTNarOdGlHvJ04db/PokemonGO_boasting_post?type=design&node-id=0-1&mode=design&t=uHdNniRMNnFkXUzM-0
 
 ## ER図
-https://app.diagrams.net/?libs=general;er#
+https://gyazo.com/b82a4e0ed59b39e7331cf4dcefa1be6f
