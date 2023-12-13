@@ -1,0 +1,27 @@
+<header>
+  <nav class="navbar navbar-expand-lg navigation navbar-light" style="background-color: #d9d9d9;">
+    <div class="container">
+      <%= link_to 'PokemonGO_boasting_post',root_path, class: "navbar-brand font-large cantata" %>
+      <button class='navbar-toggler' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+        <span class='navbar-toggler-icon'></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto main-nav align-items-center">
+          <li class='nav-item'>
+            <%= link_to '投稿新規作成', "#", class:"nav-link m-1 px-3 btn btn-outline-secondary" %>
+          </li>
+          <li class='nav-item'>
+            <%= link_to '投稿一覧', "#", class:"nav-link m-1 px-3 btn btn-outline-secondary" %>
+          </li>
+          <li class="nav-item dropdown dropdown-slider dropdown-center">
+            <div class='dropdown-menu dropdown-menu-end'>
+              <%= link_to 'プロフィール', root_path, class:"dropdown-item" %>
+              <div class='dropdown-divider'></div>
+              <%= link_to 'ログアウト', logout_path, class:"dropdown-item", data: { turbo_method: :delete }  %>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
