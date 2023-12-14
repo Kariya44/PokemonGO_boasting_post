@@ -1,11 +1,13 @@
 class OauthsController < ApplicationController
   skip_before_action :require_login
+
   def oauth
     #指定されたプロバイダの認証ページにユーザーをリダイレクトさせる
     login_at(auth_params[:provider])
   end
 
   def callback
+    #debugger
     provider = auth_params[:provider]
     # 既存のユーザーをプロバイダ情報を元に検索し、存在すればログイン
     if (@user = login_from(provider))
